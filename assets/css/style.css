@@ -129,7 +129,8 @@ nav a:hover {
     width: 1300px;
     height: 700px;
     border: 0;
-    margin: 10%;
+    margin-right: 10%;
+    text-align: right;
 }
 
 .contact h1 {
