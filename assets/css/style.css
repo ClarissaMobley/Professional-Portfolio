@@ -13,6 +13,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font);
     color: var(--nav-color);
+    background-color: var(--background-color);
     margin: 0;
 
 }
@@ -27,12 +28,15 @@ nav ul {
 }
 
 nav a {
-    
+    color: var(--text-color);
+    font-weight: 400;
+    text-decoration: none;
+
 
 }
 
 nav {
-    padding: .5%;
+    padding: .3%;
     background-color: var(--background-color);
 
 }
