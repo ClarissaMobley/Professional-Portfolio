@@ -9,6 +9,10 @@
     --normal-font: 16px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font);
@@ -49,6 +53,13 @@ nav a:hover {
     color:#000000;
 }
 
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
 
 
 
