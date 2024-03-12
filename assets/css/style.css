@@ -1,0 +1,12 @@
+
+:root {
+    --background-color: #914949;
+    --text-color: #ffffff;
+    --nav-hover: #000000;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal
+}
