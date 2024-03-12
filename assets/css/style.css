@@ -73,8 +73,14 @@ nav a:hover {
 .social {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     padding-left: 15%;
     margin-top: -10%;
-
+    margin-bottom: 15%;
 }
+
+
+.social-b{
+    padding-left: 1.5%;
+} 
