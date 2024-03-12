@@ -39,14 +39,11 @@ nav a {
     color: var(--text-color);
     font-weight: 400;
     text-decoration: none;
-
-
 }
 
 nav {
     padding: .3%;
     background-color: var(--background-color);
-
 }
 
 nav a:hover {
@@ -56,10 +53,20 @@ nav a:hover {
 .home {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
+.text img {
+    display: flex;
+    width: 800px;
+}
 
-
+.photo img {
+    display: flex;
+    width: 700px;
+   
+}
