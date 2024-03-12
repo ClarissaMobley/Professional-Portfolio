@@ -85,9 +85,6 @@ nav a:hover {
 } 
 
 .about {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 1300px;
     height: 700px;
     border: 0;
@@ -98,8 +95,8 @@ nav a:hover {
 } 
 
 .about-text {
-    margin-top: -25%;
-    margin-left: 40%;
+    margin-top: -30%;
+    margin-right: 10%;
     text-align: right;
     color: var(--text-color)
 }
@@ -109,4 +106,44 @@ nav a:hover {
     color: var(--first-color);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--second-color);
+}
+
+.work {
+    margin-left: 12%;
+}
+
+.work h1 {
+    font-size: var(--large-font);
+    color: var(--first-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--second-color); 
+}
+
+.work img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: inline-block;
+    width: 600px;
+}
+
+.contact {
+    width: 1300px;
+    height: 700px;
+    border: 0;
+    margin: 10%;
+}
+
+.contact h1 {
+    font-size: var(--large-font);
+    color: var(--first-color);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--second-color);
+    padding-top: 5%;
+}
+
+.contact p {
+    font-size: var(--large-font);
 }
