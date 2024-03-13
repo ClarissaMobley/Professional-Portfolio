@@ -193,12 +193,11 @@ nav a:hover {
 }
 
 .contact h1 {
-    /* text-align: right; */
     font-size: var(--large-font);
     color: var(--first-color);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color);
-    padding-top: 5%;
+    padding-top: 
 }
 
 .container-contact {
