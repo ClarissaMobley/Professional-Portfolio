@@ -100,7 +100,7 @@ nav a:hover {
 .about-text h1 {
     font-size: var(--large-font);
     color: var(--first-color);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color);
 }
 
@@ -111,18 +111,18 @@ nav a:hover {
 .work h1 {
     font-size: var(--large-font);
     color: var(--first-color);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color); 
 }
 
 .work img {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     display: inline-block;
-    max-width: 600px;
+    width: 500px;
 }
 
 .contact {
@@ -136,7 +136,7 @@ nav a:hover {
 .contact h1 {
     font-size: var(--large-font);
     color: var(--first-color);
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color);
     padding-top: 5%;
 }
