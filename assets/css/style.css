@@ -115,22 +115,39 @@ nav a:hover {
     -webkit-text-stroke-color: var(--second-color); 
 }
 
+.image-1 {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    align-items: flex;
+}
+
 .work img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    display: inline-flex;
     flex-wrap: wrap;
-    display: inline-block;
-    width: 500px;
+    align-items: center;
+}
+
+.image-1 {
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+    align-items: flex;
+}
+
+.images {
+    width: 200%;
 }
 
 .contact {
-    width: 1300px;
+    width: 30%;
     height: 700px;
     border: 0;
-    margin-right: 10%;
-    text-align: right;
+    color: var(--first-color);
+}
+
+.image-me {
+    width: 200%;
 }
 
 .contact h1 {
@@ -139,8 +156,38 @@ nav a:hover {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color);
     padding-top: 5%;
+    text-align: right;
 }
 
-.contact p {
-    font-size: var(--large-font);
-}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 4px solid #b77676; /* Gray border */
+    border-radius: 8px; /* Rounded borders */
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: 4px solid #b77676;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #b77676;
+    color: var(--first-color)
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }

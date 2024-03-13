@@ -11,99 +11,103 @@
     <body>
 
     
-    <!-- Header -->
-    <header>
+        <!-- Header -->
+        <header>
 
-        <!-- Navbar -->
-        <nav class="nav">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#work">WORK</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#resume">RESUME</a></li>
-            </ul>
-        </nav>       
-    
-        <!-- Header Home -->
-        <section id="home">
-            <div class="main">
-                <section class="text">
-                    <img src="/assets/images/full-stack-test-2.png" />
-                </section>
+            <!-- Navbar -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#resume">RESUME</a></li>
+                </ul>
+            </nav>       
+        
+            <!-- Header Home -->
+            <section id="home">
+                <div class="main">
+                    <section class="text">
+                        <img src="/assets/images/full-stack-test-2.png" />
+                    </section>
 
-                <section class="photo">
-                    <img src="./assets/images/Test-Photo-1.png" alt="Black and white photo of girl with pink background." />
+                    <section class="photo">
+                        <img src="./assets/images/Test-Photo-1.png" alt="Black and white photo of girl with pink background." />
+                    </section>
+                </div>
+
+                <!-- Social Media Links -->
+                <section class="social">
+                        <a href="https://www.linkedin.com/in/clarissa-mobley-30a49047" target="_blank">
+                        <img src="/assets/images/In-White-40.png" /></a>
+
+                    <div class="social-b">
+                        <a href="https://github.com/ClarissaMobley?tab=repositories" target="_blank">
+                        <img src="/assets/images/github-2.png"/></a>
+                    </div>
                 </section>
+            </section>
+        </header>
+
+
+        <!-- About -->
+        <section id="about" class="about">
+            <div>
+                <img src="/assets/images/About-1.png"/>
             </div>
 
-            <!-- Social Media Links -->
-            <section class="social">
-                    <a href="https://www.linkedin.com/in/clarissa-mobley-30a49047" target="_blank">
-                    <img src="/assets/images/In-White-40.png" /></a>
-
-                <div class="social-b">
-                    <a href="https://github.com/ClarissaMobley?tab=repositories" target="_blank">
-                    <img src="/assets/images/github-2.png"/></a>
-                </div>
-            </section>
+            <div class="about-text">
+                <h1>ABOUT</h1>
+                <p><b>I'm Clarissa Mobley, a Full Stack Developer based in Atlanta, GA.</b> 
+                    <br>I spent 10+ years working in the art department for the film industry.</p>
+            </div>
         </section>
-    </header>
 
+        <!-- Work -->
+        <section id="work" class="work">
+            <h1>WORK</h1>
 
-    <!-- About -->
-    <section id="about" class="about">
-        <div>
-            <img src="/assets/images/About-1.png"/>
-        </div>
+            <div class="image-1">
+                <img src="/assets/images/Checkerboard.png" />
+            </div>
 
-        <div class="about-text">
-            <h1>ABOUT</h1>
-            <p><b>I'm Clarissa Mobley, a Full Stack Developer based in Atlanta, GA.</b> 
-                <br>I spent 10+ years working in the art department for the film industry.</p>
-        </div>
-    </section>
+            <div class="images">
+                <img src="/assets/images/work-1.png" />
+                <img src="/assets/images/work-2.png" />
+                <img src="/assets/images/work-3.png" />
+                <img src="/assets/images/small checkerboard.png" />
+            </div>
 
-    <!-- Work -->
-    <section id="work" class="work">
-        <h1>WORK</h1>
-        <img src="/assets/images/work2.png" />
-        <img src="/assets/images/work3.png" />
-        <img src="/assets/images/work1.png" />
-    
-    </section>
+        </section>
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
-        <h1>CONTACT</h1>
-       <p>Phone Number: 555.555.5555</p>
-       <p>Email: example@me.com</p>
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h1>CONTACT</h1>
+            <div class="image-me">
+                <img src="assets/images/little-me.png" />
+            </div>
 
-    </section>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="name">NAME</label>
+                  <input type="text" id="name" name="name" placeholder="Your name">
+              
+                  <label for="email">EMAIL</label>
+                  <input type="text" id="email" name="email" placeholder="Your email">
+              
+                  <label for="message">MESSAGE</label>
+                  <textarea id="message" name="message" placeholder="Write your message here.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+        </section>
 
     </body>
-
-
-
-
-
-
-
-
-
 
 
 
