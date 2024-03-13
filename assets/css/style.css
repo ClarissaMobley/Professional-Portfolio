@@ -90,6 +90,7 @@ nav a:hover {
     margin-top: 10%;
 } 
 
+
 .about-text {
     margin-top: -30%;
     margin-right: 10%;
@@ -122,18 +123,6 @@ nav a:hover {
     align-items: flex;
 }
 
-.work img {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.image-1 {
-    width: 70%;
-    height: auto;
-    border-radius: 50%;
-    align-items: flex;
-}
 
 .images {
     width: 200%;
