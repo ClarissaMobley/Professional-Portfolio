@@ -168,12 +168,11 @@ nav a:hover {
 }
 
 .image-1 img {
-    max-width: 1500px;
+    max-width: 1300px;
     height: auto;
     width: 100%;
     height: auto;
     border-radius: 30px;
-    align-items: flex;
 }
 
 
@@ -183,18 +182,20 @@ nav a:hover {
 }
 
 .contact {
-    display: flex;
+    display: inline-flex;
     width: 100%;
     border: 0;
     color: var(--first-color);
 }
 
 .image-me img {
+    display: flex;
     width: 100%;
     max-width: 400px;
     min-width: 300px;
     margin-top: 170px;
 }
+
 
 .contact h1 {
     font-size: var(--large-font);
