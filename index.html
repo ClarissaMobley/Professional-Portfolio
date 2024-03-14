@@ -19,7 +19,7 @@
     <header>
 
         <!-- Navbar -->
-        <nav class="container container-nav">
+        <nav class="container">
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -96,32 +96,40 @@
     <!-- Contact -->
     <section id="contact" class="contact">
         <h1>CONTACT</h1>
+        <div class="contact-content">
 
-        <div class="image-me">
-            <img src="assets/images/little-me.png" alt="black and white photo of little girl" class="center" />
+            <div class="image-me">
+                <img src="assets/images/little-me.png" alt="black and white photo of little girl" class="center" />
+            </div>
+    
+            <div class="container-contact">
+                <form action="action_page.php">
+    
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+    
+                    <label for="email">EMAIL</label>
+                    <input type="text" id="email" name="email" placeholder="Your email">
+    
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="Write your message here.."
+                        style="height:200px"></textarea>
+    
+                    <input type="submit" value="Submit">
+    
+                </form>
+            </div>   
         </div>
-
-        <div class="container-contact">
-            <form action="action_page.php">
-
-                <label for="name">NAME</label>
-                <input type="text" id="name" name="name" placeholder="Your name">
-
-                <label for="email">EMAIL</label>
-                <input type="text" id="email" name="email" placeholder="Your email">
-
-                <label for="message">MESSAGE</label>
-                <textarea id="message" name="message" placeholder="Write your message here.."
-                    style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-
-            </form>
-        </div>
+        
 
     </section>
-
-<footer></footer>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            Made with blood, sweat, and tears.
+        </div>
+    </footer>
 </body>
 
 
