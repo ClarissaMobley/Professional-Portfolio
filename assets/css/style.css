@@ -107,7 +107,6 @@ body {
     height: 30px;
 }
 
-
 /* About */
 
 .about {
@@ -152,13 +151,13 @@ body {
     }
     .about-left {
         width: 100%;
-    
     }
     .about img {
         width: 100%;
     }
     .about-text {
         width: 100%;
+        padding-top: 40px;
     }
 }
 
@@ -203,7 +202,7 @@ body {
 /* Contact */
 
 .contact {
-    display: inline-flex;
+    display: flex;
     width: 100%;
     border: 0;
     color: var(--first-color);
@@ -211,7 +210,7 @@ body {
 
 .image-me img {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     max-width: 400px;
     min-width: 300px;
     margin-top: 170px;
@@ -229,13 +228,12 @@ body {
 
 .container-contact {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     max-width: 450px;
     margin-top: 200px;
 }
 
 input[type=text], select, textarea {
-    
     width: 100%; 
     padding: 10px; 
     border: 4px solid #b77676; 
@@ -264,3 +262,15 @@ input[type=text], select, textarea {
     border-radius: 5px;
     padding: 20px;
   }
+
+@media screen and (max-width: 1465) {
+        .contact {
+            flex-direction: column;
+    }   
+        .image-me img {
+            width: 100%;
+    }
+        .container-contact {
+            width: 100%;
+        }
+    }
