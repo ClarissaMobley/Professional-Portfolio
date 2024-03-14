@@ -1,3 +1,5 @@
+/* Variables */
+
 :root {
     --background-color: #914949;
     --first-color: #ffffff;
@@ -8,15 +10,7 @@
     --normal-font: 20px;
 }
 
-
-body {
-    font-family: var(--body-font);
-    font-size: var(--normal-font);
-    color: var(--second-color);
-    background-color: var(--background-color);
-    margin: 0;
-
-}
+/* Header */
 
 h1, h2, p {
     margin: 0;
@@ -26,6 +20,8 @@ header {
     padding: 1px;
     background-color: var(--background-color);
 }
+
+/* Navigation Bar */
 
 .container {
     width: 100%;
@@ -60,8 +56,18 @@ nav a:hover {
     color:var(--second-color);
 }
 
+/* Body */
 
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font);
+    color: var(--second-color);
+    background-color: var(--background-color);
+    margin: 0;
 
+}
+
+/* Home */
 
 .main {
     display: flex;
@@ -100,6 +106,9 @@ nav a:hover {
     width: 30px;
     height: 30px;
 }
+
+
+/* About */
 
 .about {
     display: flex;
@@ -153,6 +162,9 @@ nav a:hover {
     }
 }
 
+
+/* Work */
+
 .work {
     padding-left: 150px;
     margin-top: 130px;
@@ -165,6 +177,12 @@ nav a:hover {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--second-color);
     padding-left: 40px;
+}
+
+@media screen and (max-width: 515px) {
+    .work {
+        padding-top: 200px;
+    }
 }
 
 .image-1 img {
@@ -180,6 +198,9 @@ nav a:hover {
     width: 100%;
     max-width: 320px;
 }
+
+
+/* Contact */
 
 .contact {
     display: inline-flex;
