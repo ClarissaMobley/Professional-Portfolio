@@ -8,6 +8,7 @@ I created this project to showcase my work.
 
 ## Screenshots
 
+[Clarissa-Mobley-Portfolio.pdf](https://github.com/ClarissaMobley/Professional-Portfolio/files/14609723/Clarissa-Mobley-Portfolio.pdf)
 
 
 ## Authors
